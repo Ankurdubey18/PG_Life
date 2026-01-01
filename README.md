@@ -1,30 +1,63 @@
-PG Life - Student Housing Platform
+# PG Life – Student Housing Platform
+
 A modern web application for finding safe, comfortable, and affordable PG (Paying Guest) accommodations across major Indian cities.
 
-About
-PG Life helps students and working professionals find verified PG accommodations in Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, and other major cities. Browse through 500+ verified listings with photos, amenities, and reviews.
+---
 
-Features
-🏠 Browse PG listings across major Indian cities
-🔍 Search with filters for location, price, and amenities
-⭐ Verified reviews and ratings
-📷 High-quality photos of rooms and facilities
-💰 Transparent pricing with no hidden charges
-📱 Mobile-responsive design
-Tech Stack
-Frontend: React 18, TypeScript, Vite
-Styling: Tailwind CSS, shadcn/ui
-Backend: Supabase (Database, Auth, Storage)
-State Management: TanStack Query
-Getting Started
-Prerequisites
-Node.js 18+
-npm or yarn
-Installation
+## 📖 About
+
+PG Life helps students and working professionals find **verified PG accommodations** in cities like **Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad**, and other major Indian cities.
+
+Users can browse **500+ verified listings** with detailed information including photos, amenities, pricing, and reviews.
+
+---
+
+## ✨ Features
+
+- 🏠 Browse PG listings across major Indian cities  
+- 🔍 Search with filters for location, price, and amenities  
+- ⭐ Verified reviews and ratings  
+- 📷 High-quality photos of rooms and facilities  
+- 💰 Transparent pricing with no hidden charges  
+- 📱 Fully mobile-responsive design  
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **React 18**
+- **TypeScript**
+- **Vite**
+
+### Styling
+- **Tailwind CSS**
+- **shadcn/ui**
+
+### Backend
+- **Supabase**
+  - Database
+  - Authentication
+  - Storage
+
+### State Management
+- **TanStack Query**
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/pg-life.git
 
-# Navigate to project directory
+# Navigate to the project directory
 cd pg-life
 
 # Install dependencies
@@ -32,24 +65,5 @@ npm install
 
 # Start development server
 npm run dev
-The app will be available at http://localhost:8080
 
-Project Structure
-src/
-├── components/     # Reusable UI components
-├── pages/          # Page components
-├── hooks/          # Custom React hooks
-├── lib/            # Utility functions
-└── assets/         # Images and static files
-Deployment
-Build for production:
 
-npm run build
-The build output will be in the dist/ directory, ready for deployment to any static hosting service.
-
-License
-MIT License - feel free to use this project for your own purposes.
-
-Contact
-Email: hello@pglife.com
-Website: https://pglife.com
